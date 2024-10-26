@@ -4,23 +4,19 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Undangan Pernikahan Rani & Dwi</title>
-    <meta name="title" content="Undangan Pernikahan Rani  & Dwi " />
-    <meta name="description" content="Website Undangan Pernikahan Rani & Dwi Secara Online" />
+    <title>Undangan Pernikahan Ari & Nova</title>
+    <meta name="title" content="Undangan Pernikahan Ari  & Nova " />
+    <meta name="description" content="Website Undangan Pernikahan Ari & Nova Secara Online" />
 
     <meta name="theme-color" content="#212529" />
     <meta name="color-scheme" content="dark" />
-    <meta property="og:title" content="Undangan Pernikahan Rani & Dwi" />
-    <meta property="og:description" content="Website Undangan Pernikahan Rani & Dwi Secara Online" />
-    <meta property="og:image" content="https://weddingranidwi.my.id/assets/images/Foto 1.jpg" />
+    <meta property="og:title" content="Undangan Pernikahan Ari & Nova" />
+    <meta property="og:description" content="Website Undangan Pernikahan Ari & Nova Secara Online" />
     <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:alt" content="https://weddingranidwi.my.id/" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="id_ID" />
     <meta property="og:site_name" content="Undangan" />
-    <meta property="og:url" content="https://weddingranidwi.my.id/" />
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://weddingranidwi.my.id/sandbox/" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous" />
     <link rel="preconnect" href="https://gstatic.com" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"
@@ -36,56 +32,55 @@
     <link rel="stylesheet" href="css/app.css" />
 </head>
 
-<body data-email="user@example.com" data-password="12345678" data-url="https://weddingranidwi.my.id/sandbox/">
-    <nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom rounded-top-4 p-0" id="navbar-example2">
+<body data-email="user@example.com" data-password="12345678" data-url="https://weddingarinova.my.id/sandbox/">
+    <nav class="navbar navbar-dark navbar-expand fixed-bottom navbar-custom" id="navbar-example2">
         <ul class="navbar-nav nav-justified w-100 align-items-center">
             <li class="nav-item">
                 <a class="nav-link" href="#home">
                     <i class="fas fa-home"></i>
-                    <span class="d-block" style="font-size: 0.7rem">Dashboard</span>
+                    <span class="d-block">Dashboard</span>
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#mempelai">
                     <i class="fa-solid fa-user-group"></i>
-                    <span class="d-block" style="font-size: 0.7rem">Mempelai</span>
+                    <span class="d-block">Mempelai</span>
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#tanggal">
                     <i class="fa-solid fa-calendar-check"></i>
-                    <span class="d-block" style="font-size: 0.7rem">Tanggal</span>
+                    <span class="d-block">Tanggal</span>
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#galeri">
                     <i class="fa-solid fa-images"></i>
-                    <span class="d-block" style="font-size: 0.7rem">Galeri</span>
+                    <span class="d-block">Galeri</span>
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#ucapan">
                     <i class="fa-solid fa-comments"></i>
-                    <span class="d-block" style="font-size: 0.7rem">Ucapan</span>
+                    <span class="d-block">Ucapan</span>
                 </a>
             </li>
         </ul>
     </nav>
-
     <main class="scrollspy-example text-light" data-bs-spy="scroll" data-bs-target="#navbar-example2"
         data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
-        <section class="container" id="home">
-            <div class="text-center pt-4">
-                <h1 class="font-estetik my-4" style="font-size: 2.2rem">
+        <section class="container text-center" id="home">
+            <div class="pt-4">
+                <h1 class="font-estetik my-4" style="font-size: 2.4rem;">
                     Undangan Pernikahan
                 </h1>
                 <div class="py-4">
                     <div class="cropper border border-3 border-light shadow mx-auto">
-                        <img src="assets/images/Foto 1.jpg" alt="bg" onclick="modalFoto(this)" />
+                        <img src="assets/images/bg.jpeg" alt="bg" onclick="modalFoto(this)" />
                     </div>
                 </div>
-                <h1 class="font-estetik my-4" style="font-size: 3rem">
-                    Rani Safitri & Dwi Saputra
+                <h1 class="font-estetik my-4" style="font-size: 3rem;">
+                    Ari & Nova
                 </h1>
                 <h4>Minggu, 8 Oktober 2023</h4>
 
@@ -93,6 +88,7 @@
                     href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Wedding%20of%20Wahyu%20and%20Riski&details=The%20Wedding%20of%20Wahyu%20and%20Riski%20%7C%2015%20Maret%202023%20%7C%20RT%2010%20RW%2002,%20Desa%20Pajerukan,%20Kec.%20Kalibagor,%20Kab.%20Banyumas,%20Jawa%20Tengah%2053191%20%7C%2010.00%20-%2011.00%20WIB&dates=20230315T100000/20230315T110000&location=https://goo.gl/maps/ALZR6FJZU3kxVwN86">
                     <i class="fa-solid fa-calendar-check me-2"></i>Save The Date
                 </a>
+
                 <div class="d-flex justify-content-center align-items-center mt-4 mb-2">
                     <div class="mousey">
                         <div class="scroller"></div>
@@ -125,22 +121,22 @@
                 <div class="overflow-x-hidden">
                     <div data-aos="fade-right" data-aos-duration="2000">
                         <div class="cropper border border-3 border-light shadow my-4 mx-auto">
-                            <img src="assets/images/foto leave 1.jpg" alt="bg" onclick="modalFoto(this)" />
+                            <img src="assets/images/cowo.png" alt="bg" onclick="modalFoto(this)" />
                         </div>
-                        <h1 class="font-estetik" style="font-size: 3rem">Rani Safitri</h1>
-                        <h5 class="mt-3 mb-0">Putri Pertama</h5>
-                        <p class="mb-0">Bapak Kemin</p>
+                        <h1 class="font-estetik" style="font-size: 3rem">Ari</h1>
+                        <h5 class="mt-3 mb-0">Putra Pertama</h5>
+                        <p class="mb-0">Bapak Docter</p>
                     </div>
 
                     <h1 class="font-estetik my-4" style="font-size: 4rem">&</h1>
 
                     <div data-aos="fade-left" data-aos-duration="2000">
                         <div class="cropper border border-3 border-light shadow my-4 mx-auto">
-                            <img src="assets/images/foto leave.jpg" alt="bg" onclick="modalFoto(this)" />
+                            <img src="assets/images/cewe.png" alt="bg" onclick="modalFoto(this)" />
                         </div>
-                        <h1 class="font-estetik" style="font-size: 3rem">Dwi Saputra</h1>
-                        <h5 class="mt-3 mb-0">Putra Ke Dua</h5>
-                        <p class="mb-0">Bapak Paimin</p>
+                        <h1 class="font-estetik" style="font-size: 3rem">Nova </h1>
+                        <h5 class="mt-3 mb-0">Putri Ke Dua</h5>
+                        <p class="mb-0">Bapak Suharto</p>
                     </div>
                 </div>
             </div>
@@ -460,22 +456,19 @@
     <div class="modal" id="exampleModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-fullscreen m-0">
             <div class="modal-content m-0 p-0">
-                <div class="d-flex justify-content-center align-items-center" style="
-              height: 100vh !important;
-              background-image: url(assets/images/bg.jpg);
-            ">
+                <div class="modal-body d-flex justify-content-center align-items-center">
                     <div class="text-center">
                         <h1 class="font-estetik mb-4" style="font-size: 2.2rem">
                             The Wedding Of
                         </h1>
                         <div class="cropper border border-3 border-light shadow mb-4 mx-auto">
-                            <img src="assets/images/Foto 2.jpg" alt="bg" />
+                            <img src="assets/images/people.png" alt="bg" />
                         </div>
                         <h1 class="font-estetik my-4" style="font-size: 2.5rem">
-                            Rani & Dwi
+                            Ari & Nova
                         </h1>
 
-                        <div id="namatamu"></div>
+                        <div id="namatamu">[Guest Name Here]</div>
 
                         <p class="pb-4 px-4">
                             Tanpa mengurangi rasa hormat. Kami bermaksud mengundang Anda
@@ -491,7 +484,6 @@
             </div>
         </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha256-gvZPYrsDwbwYJLD5yeBfcNujPhRoGOY831wwbIzz3t0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"
