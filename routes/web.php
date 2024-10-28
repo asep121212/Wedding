@@ -3,7 +3,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\CardController;
 use App\Http\Controllers\TimelineController;
-use App\Http\Controllers\DateController;  // Import DateController
+use App\Http\Controllers\DateController; 
+use App\Http\Controllers\VideoController; 
 use App\Http\Controllers\CommentController;
 
 /*
@@ -45,6 +46,12 @@ Route::middleware(['auth:sanctum', 'verified'])->resource('/admin/date/date', Da
 Route::middleware(['auth:sanctum', 'verified'])->get('/admin/date/date/edit/{id}', 'App\Http\Controllers\DateController@edit');
 Route::middleware(['auth:sanctum', 'verified'])->get('/admin/date/date/destroy/{id}', 'App\Http\Controllers\DateController@destroy');
 Route::middleware(['auth:sanctum', 'verified'])->get('/admin/date/date/update', 'App\Http\Controllers\DateController@update');
+
+// Video routes
+Route::middleware(['auth:sanctum', 'verified'])->resource('/admin/video/video', VideoController::class);
+Route::middleware(['auth:sanctum', 'verified'])->get('/admin/video/video/edit/{id}', 'App\Http\Controllers\VideoController@edit');
+Route::middleware(['auth:sanctum', 'verified'])->get('/admin/video/video/destroy/{id}', 'App\Http\Controllers\VideoController@destroy');
+Route::middleware(['auth:sanctum', 'verified'])->get('/admin/video/video/update', 'App\Http\Controllers\VideoController@update');
 
 
 Route::get('/comments', [CommentController::class, 'index'])->name('comments.index');
