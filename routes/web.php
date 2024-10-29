@@ -3,6 +3,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\CardController;
 use App\Http\Controllers\TimelineController;
+use App\Http\Controllers\ProfilenController;
 use App\Http\Controllers\DateController; 
 use App\Http\Controllers\VideoController; 
 use App\Http\Controllers\CommentController;
@@ -40,6 +41,11 @@ Route::middleware(['auth:sanctum', 'verified'])->resource('/admin/timeline/timel
 Route::middleware(['auth:sanctum', 'verified'])->get('admin/timeline/timeline/edit/{id}', 'App\Http\Controllers\TimelineController@edit');
 Route::middleware(['auth:sanctum', 'verified'])->get('admin/timeline/timeline/destroy/{id}', 'App\Http\Controllers\TimelineController@destroy');
 Route::middleware(['auth:sanctum', 'verified'])->get('admin/timeline/timeline/update', 'App\Http\Controllers\TimelineController@update');
+// Profile routes
+Route::middleware(['auth:sanctum', 'verified'])->resource('/admin/profilen/profilen', ProfilenController::class);
+Route::middleware(['auth:sanctum', 'verified'])->get('admin/profilen/profilen/edit/{id}', 'App\Http\Controllers\ProfilenController@edit');
+Route::middleware(['auth:sanctum', 'verified'])->get('admin/profilen/profilen/destroy/{id}', 'App\Http\Controllers\ProfilenController@destroy');
+Route::middleware(['auth:sanctum', 'verified'])->get('admin/profilen/profilen/update', 'App\Http\Controllers\ProfilenController@update');
 
 // Date routes
 Route::middleware(['auth:sanctum', 'verified'])->resource('/admin/date/date', DateController::class);

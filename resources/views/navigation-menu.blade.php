@@ -27,6 +27,9 @@
                     <x-nav-link href="{{ route('timeline.index') }}" :active="request()->routeIs('timeline')">
                         {{ __('Timeline') }}
                     </x-nav-link>
+                    <x-nav-link href="{{ route('profilen.index') }}" :active="request()->routeIs('profilen')">
+                        {{ __('Profile') }}
+                    </x-nav-link>
                 </div>
 
             </div>
