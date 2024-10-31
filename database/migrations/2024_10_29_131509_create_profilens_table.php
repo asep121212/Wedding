@@ -17,6 +17,11 @@ return new class extends Migration
             $table->string('username_wanita');
             $table->string('user_pria');
             $table->string('user_wanita');
+            $table->string('user_bapak_pria');
+            $table->string('user_ibu_pria');
+            $table->string('user_ibu_wanita');
+            $table->string('user_bapak_wanita');
+
 
             $table->timestamps();
         });

@@ -43,6 +43,11 @@ class ProfilenController extends Controller
             'user_wanita' => 'required|string',
             'username_pria' => 'required|string',
             'user_pria' => 'required|string',
+            'user_bapak_pria' => 'required|string',
+            'user_ibu_pria' => 'required|string',
+            'user_ibu_wanita' => 'required|string',
+            'user_bapak_wanita' => 'required|string',
+
         ]);
         
 
@@ -92,6 +97,11 @@ class ProfilenController extends Controller
             'user_wanita' => 'required|string',
             'username_pria' => 'required|string',
             'user_pria' => 'required|string',
+            'user_bapak_pria' => 'required|string',
+            'user_ibu_pria' => 'required|string',
+            'user_ibu_wanita' => 'required|string',
+            'user_bapak_wanita' => 'required|string',
+
         ]);
 
         $input = $request->all();

@@ -33,6 +33,18 @@
                                                     User Wanita
                                                 </th>
                                                 <th class="px-10 py-5 text-xs text-gray-500">
+                                                    User Bapak Wanita
+                                                </th>
+                                                <th class="px-10 py-5 text-xs text-gray-500">
+                                                    User Ibu Wanita
+                                                </th>
+                                                <th class="px-10 py-5 text-xs text-gray-500">
+                                                    User Bapak Pria
+                                                </th>
+                                                <th class="px-10 py-5 text-xs text-gray-500">
+                                                    User Ibu Pria
+                                                </th>
+                                                <th class="px-10 py-5 text-xs text-gray-500">
                                                     Edit
                                                 </th>
                                                 <th class="px-10 py-5 text-xs text-gray-500">
@@ -70,8 +82,30 @@
                                                         {{ Str::limit($profilen->user_wanita,50) }}
                                                     </div>
                                                 </td>
+                                                <td class="px-6 py-4">
+                                                    <div class="text-sm text-gray-900">
 
+                                                        {{ Str::limit($profilen->user_bapak_wanita,50) }}
+                                                    </div>
+                                                </td>
+                                                <td class="px-6 py-4">
+                                                    <div class="text-sm text-gray-900">
 
+                                                        {{ Str::limit($profilen->user_ibu_wanita,50) }}
+                                                    </div>
+                                                </td>
+                                                <td class="px-6 py-4">
+                                                    <div class="text-sm text-gray-900">
+
+                                                        {{ Str::limit($profilen->user_ibu_pria,50) }}
+                                                    </div>
+                                                </td>
+                                                <td class="px-6 py-4">
+                                                    <div class="text-sm text-gray-900">
+
+                                                        {{ Str::limit($profilen->user_bapak_pria,50) }}
+                                                    </div>
+                                                </td>
                                                 <td class="px-6 py-4  ">
                                                     <a href="profilen/edit/{{$profilen->id }}"><button
                                                             class="px-4 py-1 text-sm btn btn-primary">Edit</button></a>
