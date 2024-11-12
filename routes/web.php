@@ -3,6 +3,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\CardController;
 use App\Http\Controllers\TimelineController;
+use App\Http\Controllers\PembukaanController;
 use App\Http\Controllers\ProfilenController;
 use App\Http\Controllers\DateController; 
 use App\Http\Controllers\VideoController; 
@@ -41,6 +42,12 @@ Route::middleware(['auth:sanctum', 'verified'])->resource('/admin/timeline/timel
 Route::middleware(['auth:sanctum', 'verified'])->get('admin/timeline/timeline/edit/{id}', 'App\Http\Controllers\TimelineController@edit');
 Route::middleware(['auth:sanctum', 'verified'])->get('admin/timeline/timeline/destroy/{id}', 'App\Http\Controllers\TimelineController@destroy');
 Route::middleware(['auth:sanctum', 'verified'])->get('admin/timeline/timeline/update', 'App\Http\Controllers\TimelineController@update');
+// Timeline routes
+Route::middleware(['auth:sanctum', 'verified'])->resource('/admin/pembukaan/pembukaan', PembukaanController::class);
+Route::middleware(['auth:sanctum', 'verified'])->get('admin/pembukaan/pembukaan/edit/{id}', 'App\Http\Controllers\PembukaanController@edit');
+Route::middleware(['auth:sanctum', 'verified'])->get('admin/pembukaan/pembukaan/destroy/{id}', 'App\Http\Controllers\PembukaanController@destroy');
+Route::middleware(['auth:sanctum', 'verified'])->get('admin/pembukaan/pembukaan/update', 'App\Http\Controllers\PembukaanController@update');
+
 // Profile routes
 Route::middleware(['auth:sanctum', 'verified'])->resource('/admin/profilen/profilen', ProfilenController::class);
 Route::middleware(['auth:sanctum', 'verified'])->get('admin/profilen/profilen/edit/{id}', 'App\Http\Controllers\ProfilenController@edit');
